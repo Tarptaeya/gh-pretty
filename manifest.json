@@ -1,0 +1,10 @@
+{
+  "name": "gh-pretty",
+  "version": "0.1",
+  "description": "Change GitHub monospaced font",
+  "manifest_version": 2,
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "matches": ["*://*.github.com/*"]
+  }]
+}
